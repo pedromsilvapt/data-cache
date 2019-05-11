@@ -1,0 +1,36 @@
+{
+  "name": "@pedromsilva/data-cache",
+  "version": "0.0.1",
+  "description": "Incredibly simple and extensible in-memory sync/async cache with optional persistence and eviction",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "pedromsilvapt/data-cache",
+  "keywords": [
+    "js",
+    "cache",
+    "memory",
+    "file",
+    "storage",
+    "ttl",
+    "container",
+    "async",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro M. Silva <pemiolsi@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@pedromsilva/data-future": "^1.1.2",
+    "data-async-iterators": "^1.4.4",
+    "data-balanced-tree": "^0.1.0",
+    "data-semaphore": "^0.3.9",
+    "mz": "^2.7.0",
+    "safe-file-write": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/mz": "0.0.32",
+    "@types/node": "^11.13.10"
+  }
+}
